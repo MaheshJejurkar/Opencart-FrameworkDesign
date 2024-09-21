@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Opencart-Automation">
+	<listeners>
+		<listener class-name="Utilities.MyListenerClass"/>
+	</listeners>
+	
+	<test name="Opencart-Chrome">
+		<parameter name="OS" value="Windows" />
+		<parameter name="Browser" value="Chrome" />
+		<classes>
+			<class name="testCases.TC02_LoginTest"/>
+		</classes>
+	</test>
+	
+	<test name="Opencart-Firefox">
+		<parameter name="OS" value="Windows" />
+		<parameter name="Browser" value="Firefox" />
+		<classes>
+			<class name="testCases.TC02_LoginTest"/>
+		</classes>
+	</test>
+
+</suite>
