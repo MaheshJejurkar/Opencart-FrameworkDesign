@@ -1,0 +1,25 @@
+04-10-2024 12:44:37 am DEBUG TestNG - suiteXmlPath: "C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\test-suites\master.xml"
+04-10-2024 12:44:39 am INFO  TC01_RegistrationTest - ***** Started TC01_RegistrationTest *****
+04-10-2024 12:44:40 am INFO  TC01_RegistrationTest - Clicked on myaccount.
+04-10-2024 12:44:41 am INFO  TC01_RegistrationTest - Clicked on register.
+04-10-2024 12:44:41 am INFO  TC01_RegistrationTest - Entered firstname.
+04-10-2024 12:44:41 am INFO  TC01_RegistrationTest - Entered lastname.
+04-10-2024 12:44:41 am INFO  TC01_RegistrationTest - Entered email.
+04-10-2024 12:44:41 am INFO  TC01_RegistrationTest - Enetered telephone no.
+04-10-2024 12:44:41 am INFO  TC01_RegistrationTest - Enetered password.
+04-10-2024 12:44:41 am INFO  TC01_RegistrationTest - Entered password again.
+04-10-2024 12:44:41 am INFO  TC01_RegistrationTest - Accepted privacy and policy term.
+04-10-2024 12:44:42 am INFO  TC01_RegistrationTest - Clicked on continue.
+04-10-2024 12:44:43 am INFO  TC01_RegistrationTest - Validated expected message.
+04-10-2024 12:44:43 am INFO  TC01_RegistrationTest - Your account registration has been done successfully.: mdbBFW.mElAzt@gmail.com
+04-10-2024 12:44:43 am INFO  TC01_RegistrationTest - Clicked on logout.
+04-10-2024 12:44:44 am INFO  TC01_RegistrationTest - ***** Finished TC01_RegistrationTest *****
+04-10-2024 12:44:46 am INFO  TC02_LoginTest - ***** Started TC02_LoginTest *****
+04-10-2024 12:44:47 am INFO  TC02_LoginTest - Clicked on myaccount link.
+04-10-2024 12:44:47 am INFO  TC02_LoginTest - Clicked on register link.
+04-10-2024 12:44:47 am INFO  TC02_LoginTest - Entered email address.
+04-10-2024 12:44:47 am INFO  TC02_LoginTest - Entered password.
+04-10-2024 12:44:49 am INFO  TC02_LoginTest - Validated user login status.
+04-10-2024 12:44:49 am INFO  TC02_LoginTest - User logged in successfully.: abc.xyz@jollyfree.com
+04-10-2024 12:44:49 am INFO  TC02_LoginTest - Clicked on logout.
+04-10-2024 12:44:50 am INFO  TC02_LoginTest - ***** Finished TC02_LoginTest *****
