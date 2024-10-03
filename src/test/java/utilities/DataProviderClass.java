@@ -1,4 +1,4 @@
-package Utilities;
+package utilities;
 
 import org.testng.annotations.DataProvider;
 
@@ -8,7 +8,7 @@ public class DataProviderClass {
 	public String[][] getLoginData() throws Exception {
 		String path = ".\\testData\\Opencart_LoginData.xlsx";
 
-		ExcelUtility excelutility = new ExcelUtility(path);
+		ExcelUtilityClass excelutility = new ExcelUtilityClass(path);
 
 		int rowcount = excelutility.getRowCount("Sheet1");
 		int cellcount = excelutility.getCellCount("Sheet1", 1);

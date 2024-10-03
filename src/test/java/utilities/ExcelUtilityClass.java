@@ -1,4 +1,4 @@
-package Utilities;
+package utilities;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -9,7 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class ExcelUtility {
+public class ExcelUtilityClass {
 	String path;
 	public FileInputStream fis;
 	public FileOutputStream fos;
@@ -19,7 +19,7 @@ public class ExcelUtility {
 	public XSSFCell cell;
 	public XSSFCellStyle cell_style;
 
-	public ExcelUtility(String path) {
+	public ExcelUtilityClass(String path) {
 		this.path = path;
 	}
 	

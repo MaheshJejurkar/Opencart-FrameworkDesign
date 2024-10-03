@@ -1,13 +1,13 @@
-Utilities\MyListenerClass.class
 pageObjects\HomePage.class
 testCases\TC03_LoginTestUsingDataProvider.class
 testBase\BaseClass.class
-Utilities\ExcelUtility.class
 pageObjects\RegistrationPage.class
 testCases\TC01_RegistrationTest.class
+utilities\ExcelUtilityClass.class
 pageObjects\AccountPage.class
 testCases\Dummy.class
 pageObjects\LoginPage.class
 pageObjects\BasePage.class
+utilities\DataProviderClass.class
+utilities\ListenerClass.class
 testCases\TC02_LoginTest.class
-Utilities\DataProviderClass.class

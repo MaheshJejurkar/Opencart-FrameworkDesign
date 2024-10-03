@@ -13,7 +13,7 @@ public class TC03_LoginTestUsingDataProvider extends BaseClass {
 	public LoginPage loginpage;
 	public AccountPage accountpage;
 
-	@Test(groups = "DataDriven" , dataProvider = "getLoginData", dataProviderClass = Utilities.DataProviderClass.class)
+	@Test(groups = "DataDriven" , dataProvider = "getLoginData", dataProviderClass = utilities.DataProviderClass.class)
 	public void validate_userLogin(String email, String password, String expected_status) throws Exception {
 		logger.info("***** Started TC02_LoginTest *****");
 		try {

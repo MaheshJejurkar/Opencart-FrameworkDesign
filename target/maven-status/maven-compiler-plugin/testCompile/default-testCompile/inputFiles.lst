@@ -8,6 +8,6 @@ C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\src\test\java\testCas
 C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\src\test\java\testCases\TC01_RegistrationTest.java
 C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\src\test\java\testCases\TC02_LoginTest.java
 C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\src\test\java\testCases\TC03_LoginTestUsingDataProvider.java
-C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\src\test\java\Utilities\DataProviderClass.java
-C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\src\test\java\Utilities\ExcelUtility.java
-C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\src\test\java\Utilities\MyListenerClass.java
+C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\src\test\java\utilities\DataProviderClass.java
+C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\src\test\java\utilities\ExcelUtilityClass.java
+C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\src\test\java\utilities\ListenerClass.java

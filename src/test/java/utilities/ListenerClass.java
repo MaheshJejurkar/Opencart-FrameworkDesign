@@ -1,4 +1,4 @@
-package Utilities;
+package utilities;
 
 import java.awt.Desktop;
 import java.io.File;
@@ -19,7 +19,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import testBase.BaseClass;
 
-public class MyListenerClass implements ITestListener{
+public class ListenerClass implements ITestListener{
 	String reportName;
 	
 	public ExtentSparkReporter sparkReporter;		//UI of report.

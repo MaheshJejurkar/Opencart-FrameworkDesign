@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Opencart-Automation">
+	
 	<listeners>
-		<listener class-name="Utilities.MyListenerClass"/>
+		<listener class-name="utilities.ListenerClass"/>
 	</listeners>
 	
-	<test name="Opencart-Chrome">
-		<parameter name="OS" value="Windows" />
+	<test name="Opencart-LinuxChrome">
+		<parameter name="OS" value="Linux" />
 		<parameter name="Browser" value="Chrome" />
 		<classes>
-			<class name="testCases.TC02_LoginTest"/>
+			<class name="testCases.TC01_RegistrationTest"/>
 		</classes>
 	</test>
 	
-	<test name="Opencart-Firefox">
-		<parameter name="OS" value="Windows" />
+	<test name="Opencart-LinuxFirefox">
+		<parameter name="OS" value="Linux" />
 		<parameter name="Browser" value="Firefox" />
 		<classes>
 			<class name="testCases.TC02_LoginTest"/>
 		</classes>
 	</test>
-
 </suite>
