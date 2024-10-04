@@ -2,20 +2,22 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-04T00:30:02 IST" name="Opencart-Automation" finished-at="2024-10-04T00:30:27 IST" duration-ms="24413">
+  <suite started-at="2024-10-04T10:00:14 IST" name="Opencart-Automation" finished-at="2024-10-04T10:00:28 IST" duration-ms="13853">
     <groups>
       <group name="Master">
-        <method signature="TC02_LoginTest.testUserLogin()[pri:0, instance:testCases.TC02_LoginTest@45efc20d]" name="testUserLogin" class="testCases.TC02_LoginTest"/>
-        <method signature="TC02_LoginTest.testUserLogin()[pri:0, instance:testCases.TC02_LoginTest@75f5fd58]" name="testUserLogin" class="testCases.TC02_LoginTest"/>
+        <method signature="TC01_RegistrationTest.testUserRegistration()[pri:0, instance:testCases.TC01_RegistrationTest@654d8173]" name="testUserRegistration" class="testCases.TC01_RegistrationTest"/>
+        <method signature="TC02_LoginTest.testUserLogin()[pri:0, instance:testCases.TC02_LoginTest@636e8cc]" name="testUserLogin" class="testCases.TC02_LoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC02_LoginTest.testUserLogin()[pri:0, instance:testCases.TC02_LoginTest@45efc20d]" name="testUserLogin" class="testCases.TC02_LoginTest"/>
-        <method signature="TC02_LoginTest.testUserLogin()[pri:0, instance:testCases.TC02_LoginTest@75f5fd58]" name="testUserLogin" class="testCases.TC02_LoginTest"/>
+        <method signature="TC02_LoginTest.testUserLogin()[pri:0, instance:testCases.TC02_LoginTest@636e8cc]" name="testUserLogin" class="testCases.TC02_LoginTest"/>
       </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC01_RegistrationTest.testUserRegistration()[pri:0, instance:testCases.TC01_RegistrationTest@654d8173]" name="testUserRegistration" class="testCases.TC01_RegistrationTest"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-10-04T00:30:02 IST" name="Opencart-Chrome" finished-at="2024-10-04T00:30:11 IST" duration-ms="8410">
+    <test started-at="2024-10-04T10:00:14 IST" name="Opencart" finished-at="2024-10-04T10:00:28 IST" duration-ms="13853">
       <class name="testCases.TC02_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_LoginTest@45efc20d]" started-at="2024-10-04T00:30:02 IST" name="setup" finished-at="2024-10-04T00:30:05 IST" duration-ms="2700" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_LoginTest@636e8cc]" started-at="2024-10-04T10:00:22 IST" name="setup" finished-at="2024-10-04T10:00:23 IST" duration-ms="1290" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,19 +33,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testUserLogin()[pri:0, instance:testCases.TC02_LoginTest@45efc20d]" started-at="2024-10-04T00:30:05 IST" name="testUserLogin" finished-at="2024-10-04T00:30:10 IST" duration-ms="4973" status="PASS">
+        <test-method signature="testUserLogin()[pri:0, instance:testCases.TC02_LoginTest@636e8cc]" started-at="2024-10-04T10:00:23 IST" name="testUserLogin" finished-at="2024-10-04T10:00:27 IST" duration-ms="4587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC02_LoginTest@45efc20d]" started-at="2024-10-04T00:30:10 IST" name="teardown" finished-at="2024-10-04T00:30:11 IST" duration-ms="276" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC02_LoginTest@636e8cc]" started-at="2024-10-04T10:00:27 IST" name="teardown" finished-at="2024-10-04T10:00:28 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC02_LoginTest -->
-    </test> <!-- Opencart-Chrome -->
-    <test started-at="2024-10-04T00:30:14 IST" name="Opencart-Firefox" finished-at="2024-10-04T00:30:27 IST" duration-ms="13004">
-      <class name="testCases.TC02_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_LoginTest@75f5fd58]" started-at="2024-10-04T00:30:14 IST" name="setup" finished-at="2024-10-04T00:30:19 IST" duration-ms="5520" status="PASS">
+      <class name="testCases.TC01_RegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_RegistrationTest@654d8173]" started-at="2024-10-04T10:00:14 IST" name="setup" finished-at="2024-10-04T10:00:16 IST" duration-ms="2166" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,22 +52,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Firefox]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testUserLogin()[pri:0, instance:testCases.TC02_LoginTest@75f5fd58]" started-at="2024-10-04T00:30:19 IST" name="testUserLogin" finished-at="2024-10-04T00:30:24 IST" duration-ms="5174" status="PASS">
+        <test-method signature="testUserRegistration()[pri:0, instance:testCases.TC01_RegistrationTest@654d8173]" started-at="2024-10-04T10:00:16 IST" name="testUserRegistration" finished-at="2024-10-04T10:00:21 IST" duration-ms="4986" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUserLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC02_LoginTest@75f5fd58]" started-at="2024-10-04T00:30:24 IST" name="teardown" finished-at="2024-10-04T00:30:27 IST" duration-ms="2288" status="PASS">
+        </test-method> <!-- testUserRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC01_RegistrationTest@654d8173]" started-at="2024-10-04T10:00:21 IST" name="teardown" finished-at="2024-10-04T10:00:22 IST" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC02_LoginTest -->
-    </test> <!-- Opencart-Firefox -->
+      </class> <!-- testCases.TC01_RegistrationTest -->
+    </test> <!-- Opencart -->
   </suite> <!-- Opencart-Automation -->
 </testng-results>

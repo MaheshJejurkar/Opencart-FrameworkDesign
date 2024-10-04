@@ -23,3 +23,56 @@
 04-10-2024 12:44:49 am INFO  TC02_LoginTest - User logged in successfully.: abc.xyz@jollyfree.com
 04-10-2024 12:44:49 am INFO  TC02_LoginTest - Clicked on logout.
 04-10-2024 12:44:50 am INFO  TC02_LoginTest - ***** Finished TC02_LoginTest *****
+04-10-2024 09:56:19 am DEBUG TestNG - suiteXmlPath: "C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\test-suites\master.xml"
+04-10-2024 09:56:24 am INFO  TC01_RegistrationTest - ***** Started TC01_RegistrationTest *****
+04-10-2024 09:56:26 am INFO  TC01_RegistrationTest - Clicked on myaccount.
+04-10-2024 09:56:27 am INFO  TC01_RegistrationTest - Clicked on register.
+04-10-2024 09:56:27 am INFO  TC01_RegistrationTest - Entered firstname.
+04-10-2024 09:56:27 am INFO  TC01_RegistrationTest - Entered lastname.
+04-10-2024 09:56:27 am INFO  TC01_RegistrationTest - Entered email.
+04-10-2024 09:56:27 am INFO  TC01_RegistrationTest - Enetered telephone no.
+04-10-2024 09:56:27 am INFO  TC01_RegistrationTest - Enetered password.
+04-10-2024 09:56:27 am INFO  TC01_RegistrationTest - Entered password again.
+04-10-2024 09:56:27 am INFO  TC01_RegistrationTest - Accepted privacy and policy term.
+04-10-2024 09:56:28 am INFO  TC01_RegistrationTest - Clicked on continue.
+04-10-2024 09:56:29 am INFO  TC01_RegistrationTest - Validated expected message.
+04-10-2024 09:56:29 am INFO  TC01_RegistrationTest - Your account registration has been done successfully.: LBrwaZ.RfbMMD@gmail.com
+04-10-2024 09:56:29 am INFO  TC01_RegistrationTest - Clicked on logout.
+04-10-2024 09:56:30 am INFO  TC01_RegistrationTest - ***** Finished TC01_RegistrationTest *****
+04-10-2024 09:56:31 am INFO  TC02_LoginTest - ***** Started TC02_LoginTest *****
+04-10-2024 09:56:32 am INFO  TC02_LoginTest - Clicked on myaccount link.
+04-10-2024 09:56:32 am INFO  TC02_LoginTest - Clicked on register link.
+04-10-2024 09:56:33 am INFO  TC02_LoginTest - Entered email address.
+04-10-2024 09:56:33 am INFO  TC02_LoginTest - Entered password.
+04-10-2024 09:56:35 am INFO  TC02_LoginTest - Validated user login status.
+04-10-2024 09:56:35 am INFO  TC02_LoginTest - User logged in successfully.: abc.xyz@jollyfree.com
+04-10-2024 09:56:35 am INFO  TC02_LoginTest - Clicked on logout.
+04-10-2024 09:56:35 am INFO  TC02_LoginTest - ***** Finished TC02_LoginTest *****
+04-10-2024 10:00:14 am DEBUG TestNG - suiteXmlPath: "C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\test-suites\master.xml"
+04-10-2024 10:00:14 am INFO  Utils - [TestNG] Running:
+  C:\Users\Mahesh\eclipse-workspace\Opencart-FrameworkDesign\test-suites\master.xml
+
+04-10-2024 10:00:16 am INFO  TC01_RegistrationTest - ***** Started TC01_RegistrationTest *****
+04-10-2024 10:00:18 am INFO  TC01_RegistrationTest - Clicked on myaccount.
+04-10-2024 10:00:18 am INFO  TC01_RegistrationTest - Clicked on register.
+04-10-2024 10:00:18 am INFO  TC01_RegistrationTest - Entered firstname.
+04-10-2024 10:00:18 am INFO  TC01_RegistrationTest - Entered lastname.
+04-10-2024 10:00:18 am INFO  TC01_RegistrationTest - Entered email.
+04-10-2024 10:00:18 am INFO  TC01_RegistrationTest - Enetered telephone no.
+04-10-2024 10:00:19 am INFO  TC01_RegistrationTest - Enetered password.
+04-10-2024 10:00:19 am INFO  TC01_RegistrationTest - Entered password again.
+04-10-2024 10:00:19 am INFO  TC01_RegistrationTest - Accepted privacy and policy term.
+04-10-2024 10:00:19 am INFO  TC01_RegistrationTest - Clicked on continue.
+04-10-2024 10:00:21 am INFO  TC01_RegistrationTest - Validated expected message.
+04-10-2024 10:00:21 am INFO  TC01_RegistrationTest - Your account registration has been done successfully.: IoaNGd.oaHTeP@gmail.com
+04-10-2024 10:00:21 am INFO  TC01_RegistrationTest - Clicked on logout.
+04-10-2024 10:00:21 am INFO  TC01_RegistrationTest - ***** Finished TC01_RegistrationTest *****
+04-10-2024 10:00:23 am INFO  TC02_LoginTest - ***** Started TC02_LoginTest *****
+04-10-2024 10:00:24 am INFO  TC02_LoginTest - Clicked on myaccount link.
+04-10-2024 10:00:24 am INFO  TC02_LoginTest - Clicked on register link.
+04-10-2024 10:00:25 am INFO  TC02_LoginTest - Entered email address.
+04-10-2024 10:00:25 am INFO  TC02_LoginTest - Entered password.
+04-10-2024 10:00:27 am INFO  TC02_LoginTest - Validated user login status.
+04-10-2024 10:00:27 am INFO  TC02_LoginTest - User logged in successfully.: abc.xyz@jollyfree.com
+04-10-2024 10:00:27 am INFO  TC02_LoginTest - Clicked on logout.
+04-10-2024 10:00:27 am INFO  TC02_LoginTest - ***** Finished TC02_LoginTest *****
